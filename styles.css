@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(./images/ryan.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  border-bottom: 1px solid grey;
+}
+.home{
+  min-height: 100vh;
+  
+}
+.container{
+  margin: auto;
+}
+header .brand a{
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+header .row{
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+
+}
+header .navbar ul li{
+  display: inline-block;
+  margin-left: 35px;
+}
+header .navbar ul li a{
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 72px;
+  color: white;
+  font-weight: 800;
+}
