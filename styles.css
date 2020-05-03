@@ -125,7 +125,7 @@ header.navbar ul li a:hover::before{
 
 .about-me .section-title h1{
   display: inline-block;
-  font-size: 35px;
+  font-size: 50px;
   text-transform: uppercase;
   font-weight:700px;
   color: blueviolet;
@@ -134,9 +134,9 @@ header.navbar ul li a:hover::before{
   padding-bottom: 5px;
 }
 
-.about-me .section-title p.small{
+.about-me .section-title p{
   display: block;
-  font-size: 14px;
+  font-size: 26px;
   color: black;
   font-weight: 400;
   letter-spacing: 2px;
@@ -151,7 +151,30 @@ header.navbar ul li a:hover::before{
   display: block;
 }
 .about-me .about-content .text{
-  flex: 0 0 66.66em;
+  margin: 0em;
+  flex: 66em;
   max-width: 66.66em;
   padding-left: 30px;
+}
+
+.about-me .about-content .text h4{
+  font-size: 900px;
+  font-weight: 600;
+  margin: 0 0 5px;
+  color: aqua;
+}
+.about-me .about-content .text h6{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 5px;
+  color: aqua;
+}
+.about-me .about-content .text p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: blueviolet;
+}
+.about-me .about-content .text .info{
+  display: flex;
 }
