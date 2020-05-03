@@ -1,3 +1,6 @@
+
+/*Home Section*/
+
 body{
   margin: 0px;
   box-sizing: border-box;
@@ -5,7 +8,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 15px;
+  padding: 0px;
 }
 header{
   position: absolute;
@@ -66,12 +69,11 @@ header.navbar ul li a:hover::before{
 }
 
 .home .home-content{
-  justify-content: space-evenly;
-  float: 100em;;
-  max-width: 100%;
+  justify-content: first baseline;
+  float: left;
+  max-width: 75em;
   display: flex;
-  flex-wrap:wrap;
-  align-items: center;
+  align-items: bottom;
 }
 
 .home .home-content .block{
@@ -105,4 +107,51 @@ header.navbar ul li a:hover::before{
   margin: 0;
   padding: 0;
   line-height: 1.2;
+}
+
+/*About me*/
+
+.about-me{
+  padding:100px 15px ;
+  background-color: transparent
+
+}
+
+.about-me .section-title{
+  flex: 100em;
+  max-width: 100em;
+  margin-bottom: 35px;
+}
+
+.about-me .section-title h1{
+  display: inline-block;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight:700px;
+  color: blueviolet;
+  margin: 0 0 10px;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.about-me .section-title p.small{
+  display: block;
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.about-me .about-content .img{
+  flex: 0 0 33.33em;
+  max-width: 33.33em;
+}
+.about-me .about-content .img img{
+  width: 100em;
+  display: block;
+}
+.about-me .about-content .text{
+  flex: 0 0 66.66em;
+  max-width: 66.66em;
+  padding-left: 30px;
 }
