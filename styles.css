@@ -10,6 +10,68 @@ body{
   background-position: center;
   padding: 0px;
 }
+.nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side{
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+  height: 22px;
+  border-bottom: 10px solid transparent;
+  transition: border-bottom 0.5s;
+} 
+
+.nav-link-wrapper a {
+  font-size: 50px;
+  color: red;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+  border-bottom: 1px solid green;
+}
+
+.nav-link-wrapper a:hover{
+  color:blue;
+}
+
+.nav-wrapper >.right-side > div{
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color: blue;
+  text-decoration: none;
+  transition: border-bottom 0.5s;
+}
+.nav-link-wrapper:hover{
+  border-bottom: 1px solid green;
+}
+
+.nav-link-wrapper a:hover{
+  color:blue;
+}
+ 
 header{
   position: absolute;
   left: 0px;
@@ -59,7 +121,7 @@ header .navbar ul li a{
 }
 
 header.navbar ul li a:hover::before{
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   width: 100%;
   left: 0px;
 }
@@ -138,7 +200,7 @@ header.navbar ul li a:hover::before{
 .about-me .section-title p{
   display: block;
   font-size: 26px;
-  color: white;
+  color: black;
   font-weight: 400;
   letter-spacing: 2px;
 }
