@@ -1,5 +1,30 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-color: lawngreen;
+  background-color: black;
+}
+.cont h1{
+  font-family: 'Permanent Marker', cursive;
+  color: red;
+  font-size: 50px;
+}
+.cont h2{
+  font-family: 'Satisfy', cursive;
+  color: purple;
+  font-size: 40px;
+}
+.cont ul{
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+}
+.cont li{
+  color: chartreuse;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+.img{
+  float: centre;
+  margin: 20px;
+  padding: 20px;
 }
